@@ -1,0 +1,14 @@
+/* .heading1{
+    color: rgb(243, 190, 18);
+} */
+.my-heading{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.title{
+    margin-bottom: 10px;
+}
+#btn{
+    /* background-color: rgb(243, 190, 18) ; */
+    color: white;
+}

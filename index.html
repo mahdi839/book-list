@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-heading ">MAHDIS GARDEN <span class="text-warning">BOOK</span>  LIST</h1>
+        <h5>Title</h5>
+        <input type="text"  class="form-control title" id="title">
+        <h5>Author</h5>
+        <input type="text"  class="form-control title" id="author">
+        <h5>year</h5>
+        <input type="text"  class="form-control title" id="year" >
+        <button class="form-control btn-warning" id="click">Add Book</button>
+    </div>
+    <table class="table text-center">
+        <thead>
+            <tr>
+                <th>title</th>
+                <th>author</th>
+                <th>year</th>
+            </tr>
+            <tbody id="booklist"></tbody>
+        </thead>
+
+
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
